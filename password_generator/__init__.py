@@ -15,7 +15,8 @@ while flag == 1:
     choice = str(input("Pick One>>").upper()).strip()
 
     if choice == 'A':
-        pass
+        password = input("Enter your password>>").strip()
+        validator.validate(password)
 
     elif choice == 'B':
         pass
