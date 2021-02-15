@@ -4,6 +4,7 @@ import sys
 
 # choice = 'B'
 flag = 1
+generated_passwords = []
 print("Welcome to password Validator and Generator!")
 while flag == 1:
     print("""
