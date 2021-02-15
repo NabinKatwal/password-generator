@@ -20,7 +20,8 @@ while flag == 1:
         validator.validate(password)
 
     elif choice == 'B':
-        pass
+        length = int(input("Enter length of password->"))
+        generator.generate(length)
 
     elif choice == 'C':
         pass
